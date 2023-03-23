@@ -41,27 +41,6 @@ const CarsContainer = styled.div`
     md:mt-10
   `};
 `;
-const EmptyCars = styled.div`
-  ${tw`
-    w-full
-    flex
-    justify-center
-    items-center
-    text-sm
-    text-gray-500
-  `};
-`;
-const LoadingContainer = styled.div`
-  ${tw`
-    w-full
-    mt-9
-    flex
-    justify-center
-    items-center
-    text-base
-    text-black
-  `};
-`;
 
 export function TopCars() {
   const [current, setCurrent] = useState(0);
